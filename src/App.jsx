@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom"
 import useAuth from "./hooks/useAuth"
 import useCompany from "./hooks/useCompany"
-import Login from "./pages/Login"
+import Login from "./pages/login"
 import DashboardLayout from "./layout/DashboardLayout"
 
 import DashboardHome from "./pages/DashboardHome"
